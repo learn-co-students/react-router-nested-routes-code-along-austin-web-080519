@@ -17,6 +17,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(Object.keys(this.state.movies))
     return (
       <Router>
         <div>
